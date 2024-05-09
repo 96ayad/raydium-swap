@@ -54,10 +54,15 @@ module.exports = {
 
         // compress: true,
         // public: 'raydium-swap.onrender.com' // That solved it
-        
-        disableHostCheck: true,
-        host: '0.0.0.0',
-        port: 3000
+
+        // disableHostCheck: true,
+        // host: '0.0.0.0',
+        // port: 3000
+
+        allowedHosts: [
+            'onrender.com',
+            'raydium-swap.onrender.com'
+             ]
     
      }  
 };
