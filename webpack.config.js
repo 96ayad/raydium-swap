@@ -50,7 +50,10 @@ module.exports = {
 
 
     devServer: {
-        allowedHosts: "all"
+        // allowedHosts: "all"
+
+        compress: true,
+        public: 'raydium-swap.onrender.com' // That solved it
     
      }  
 };
