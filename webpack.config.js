@@ -47,4 +47,11 @@ module.exports = {
             "os": false, // "os": require.resolve("os-browserify/browser"),
         }
     },
+
+    
+    devServer: {
+        compress: true,
+        disableHostCheck: true,   // That solved it
+    
+     }  
 };
